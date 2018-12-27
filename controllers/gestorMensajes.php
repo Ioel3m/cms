@@ -14,7 +14,7 @@ class MensajesController{
 			   	#------------------------------------------------------
 			   	#mail(Correo destino, asunto del mensaje, mensaje, cabecera del correo);
 				
-				$correoDestino = "cursos@tutorialesatualcance.com";
+				$correoDestino = "correo@correo.com";
 				$asunto = "Mensaje de la web";
 				$mensaje = "Nombre: ".$_POST["nombre"]."\n"."\n".
 						   "Email: ".$_POST["email"]."\n"."\n".
